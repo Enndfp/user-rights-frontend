@@ -1,5 +1,5 @@
 import Footer from '@/components/Footer';
-import {register} from '@/services/ant-design-pro/api';
+import {register, sendMsg} from '@/services/ant-design-pro/api';
 import {EditOutlined, LockOutlined, MailOutlined, UserOutlined,} from '@ant-design/icons';
 import {LoginForm, ProFormCaptcha, ProFormText,} from '@ant-design/pro-components';
 import {message, Tabs} from 'antd';
@@ -43,12 +43,7 @@ const Register: React.FC = () => {
   const handleGetCaptcha = async (email: string) => {
     try {
       setCaptchaLoading(true);
-      const flag = await request('/api/user/sendMsg', {
-        method: 'POST',
-        data: {
-          email,
-        },
-      });
+      const flag = await sendMsg({ email: email } as API.SendMsgParam);
       if (flag) {
         message.success(`验证码已发送到 ${email}，请注意查收`);
       }

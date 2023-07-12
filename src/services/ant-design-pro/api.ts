@@ -83,6 +83,17 @@ export async function modifyPassword(
     ...options,
   });
 }
+/** 发送验证码 Post /api/user/sendMsg */
+export async function sendMsg(
+  body: API.SendMsgParam,
+  options?: { [key: string]: any },
+) {
+  return request<API.BaseResponse<boolean>>('/api/user/sendMsg', {
+    method: 'POST',
+    data: body,
+    ...options,
+  });
+}
 /** 删除用户 POST /api/user/delete */
 export async function deleteUser(body: API.DeleteParam, options?: { [key: string]: any }) {
   return request<API.BaseResponse<boolean>>('/api/user/delete', {

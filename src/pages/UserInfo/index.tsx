@@ -1,10 +1,9 @@
 import React, {useEffect, useState} from 'react';
 import {Button, Descriptions, Divider, Image, message} from 'antd';
 import {ModalForm, ProForm, ProFormText} from '@ant-design/pro-components';
-import {request} from 'umi';
 import {selectAvatarUrl, selectGender} from '@/constant';
 import {ProFormSelect} from '@ant-design/pro-form';
-import {modifyPassword, outLogin, userModify} from "@/services/ant-design-pro/api";
+import {currentUser, modifyPassword, outLogin, userModify} from "@/services/ant-design-pro/api";
 import {history} from "@@/core/history";
 
 const waitTime = (time: number = 100) => {
@@ -42,7 +41,8 @@ const UserInfo: React.FC = () => {
   });
   useEffect(() => {
     async function fetch() {
-      await request('/api/user/current', {method: 'GET'}).then((res) => {
+      await currentUser().then((res) => {
+        // @ts-ignore
         setMyUser(res);
       });
     }

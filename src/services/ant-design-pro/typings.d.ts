@@ -108,6 +108,13 @@ declare namespace API {
     newPassword: string;
   };
 
+  /**
+   * 发送验证码
+   */
+  type SendMsgParam = {
+    email: string;
+  };
+
   type ErrorResponse = {
     /** 业务约定的错误码 */
     errorCode: string;
