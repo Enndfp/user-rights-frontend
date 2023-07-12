@@ -7,7 +7,7 @@ import {history} from '@@/core/history';
  */
 const request = extend({
   credentials: 'include', // 默认请求是否带上cookie
-  prefix: process.env.NODE_ENV === 'production' ? 'https://user.enndfp.cn' : undefined,
+  prefix: process.env.NODE_ENV === 'production' ? 'https://user-backend.enndfp.cn' : undefined,
   // requestType: 'form',
 });
 
