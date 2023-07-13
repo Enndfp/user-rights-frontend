@@ -26,7 +26,7 @@ const Welcome: React.FC = () => {
           <SecurityScanTwoTone /> 用户权限系统
         </Typography.Title>
       </Card>
-      <img src='https://enndfp-1317534445.cos.ap-guangzhou.myqcloud.com/img/hhw.jpg' style={{
+      <img src='https://img.enndfp.cn/hhw.jpg' style={{
         marginTop:'5px',
         maxWidth:'100%'
       }}/>

@@ -14,7 +14,7 @@ const Settings: LayoutSettings & {
   colorWeak: false,
   title: '用户权限系统',
   pwa: false,
-  logo: 'https://enndfp-1317534445.cos.ap-guangzhou.myqcloud.com/img/logo.svg',
+  logo: 'https://img.enndfp.cn/logo.svg',
   iconfontUrl: '',
 };
 

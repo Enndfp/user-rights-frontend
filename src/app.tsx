@@ -7,6 +7,7 @@ import type {RunTimeLayoutConfig} from 'umi';
 import {history} from 'umi';
 import defaultSettings from '../config/defaultSettings';
 import {currentUser as queryCurrentUser} from './services/ant-design-pro/api';
+// @ts-ignore
 import {RequestConfig} from "@@/plugin-request/request";
 
 
