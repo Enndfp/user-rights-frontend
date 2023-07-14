@@ -40,6 +40,46 @@
 
 # 项目展示
 
+- **登录页**
+
+![image-20230714174530787](https://img.enndfp.cn/image-20230714174530787.png)
+
+- **注册页**
+
+![image-20230714174612930](https://img.enndfp.cn/image-20230714174612930.png)
+
+- **首页**
+
+![image-20230714174735848](https://img.enndfp.cn/image-20230714174735848.png)
+
+- **用户管理页**
+
+![image-20230714174844930](https://img.enndfp.cn/image-20230714174844930.png)
+
+
+
+![image-20230714174924758](https://img.enndfp.cn/image-20230714174924758.png)
+
+- **新增用户页**
+
+![image-20230714175304516](https://img.enndfp.cn/image-20230714175304516.png)
+
+- **用户信息页**
+
+![image-20230714175412983](https://img.enndfp.cn/image-20230714175412983.png)
+
+- **修改页**
+
+![image-20230714175541944](https://img.enndfp.cn/image-20230714175541944.png)
+
+
+
+![image-20230714175611148](https://img.enndfp.cn/image-20230714175611148.png)
+
+
+
+![image-20230714175630647](https://img.enndfp.cn/image-20230714175630647.png)
+
 # 项目启动
 
 ## 前端
@@ -146,7 +186,7 @@ MySQL 使用 SQL（Structured Query Language）作为其查询语言，可以进
 
 如果你喜欢这个项目，请给一个星星⭐支持并在GitHub上关注该项目。
 
-欢迎访问 [GitHub 项目地址](https://github.com/Enndfp/user-rights-frontend) 获取最新代码和更多信息。
+欢迎访问 [GitHub 项目地址](https://github.com/Enndfp/user-rights-backend) 获取最新代码和更多信息。
 
 作者：Enndfp
 

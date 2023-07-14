@@ -85,7 +85,7 @@ export const layout: RunTimeLayoutConfig = ({ initialState, setInitialState }) =
         history.push(loginPath);
       }
     },
-    links: isDev
+    links: !isDev
       ? [
         <a href="https://github.com/Enndfp/user-rights-backend/blob/main/README.md" target="_blank">
           <LinkOutlined />
