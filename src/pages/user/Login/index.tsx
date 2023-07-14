@@ -89,7 +89,7 @@ const Login: React.FC = () => {
                   size: 'large',
                   prefix: <UserOutlined className={styles.prefixIcon}/>,
                 }}
-                placeholder={'请输入账号'}
+                placeholder={'请输入账号(Enndfp)'}
                 rules={[
                   {
                     required: true,
@@ -103,7 +103,7 @@ const Login: React.FC = () => {
                   size: 'large',
                   prefix: <LockOutlined className={styles.prefixIcon}/>,
                 }}
-                placeholder={'请输入密码'}
+                placeholder={'请输入密码(123456789)'}
                 rules={[
                   {
                     required: true,
